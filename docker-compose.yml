@@ -1,0 +1,7 @@
+version: '3'
+services:
+  node:
+    image: node:latest
+    volumes:
+      - './:/srv'
+    working_dir: '/srv'
